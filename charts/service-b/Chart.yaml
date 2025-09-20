@@ -1,0 +1,5 @@
+apiVersion: v2
+name: service-b
+description: Service B (Gin)
+version: 0.1.0
+appVersion: "0.1.0"
