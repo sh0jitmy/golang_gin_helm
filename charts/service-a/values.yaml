@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: ghcr.io/yourname/service-a
+  repository: ghcr.io/sh0jitmy/service-a
   tag: "0.1.0"
   pullPolicy: IfNotPresent
 service:
