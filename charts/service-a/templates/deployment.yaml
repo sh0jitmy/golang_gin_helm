@@ -17,7 +17,7 @@ spec:
       containers:
         - name: service-a
           #image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-          image: "{{ .Values.image.repository }}:{{ .Values.image.digest | default (printf \":%s\" .Values.image.tag) }}"
+          image: "{{ .Values.image.repository }}@{{ .Values.image.digest }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - containerPort: {{ .Values.containerPort }}
