@@ -3,7 +3,7 @@ image:
   repository: ghcr.io/sh0jitmy/service-a
   tag: "0.1.5"
   pullPolicy: IfNotPresent
-  digest: sha256:4021fb6deae269273d60b299eb2db556b22c09f8d5da2e08b7caacd6ade8ef84
+  digest: sha256:c4dd059dd7ef7773c99445d595762f0ee054d1adf40edc91eebcc780541eb08a
 service:
   type: ClusterIP
   port: 80
